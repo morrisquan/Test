@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qphone.dao.guozhiquan.DaoHangLanDao">
+
+
+
+
+	<select id="getAll" resultType="DaoHangLan">
+		select * from daohanglan
+	</select>
+
+	<select id="getOne" resultType="DaoHangLan" parameterType="java.math.BigDecimal">
+		select * from daohanglan where dhl_id=#{id}
+	</select>
+
+
+
+</mapper>
