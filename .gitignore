@@ -50,3 +50,7 @@ Thumbs.db
 hs_err_pid*
 
 /*.project
+/SiJieDuanContent/SiJieDuanService/*
+/SiJieDuanContent/SiJieDuanService/*.classpath
+/SiJieDuanContent/SiJieDuanService/*.project
+/SiJieDuanContent/SiJieDuanService/*.springBeans
