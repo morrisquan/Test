@@ -31,7 +31,7 @@
 	
 	<!-- mapper文件引入 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.qphone.dao"></property>
+		<property name="basePackage" value="com.qphone.testdao"></property>
 		<property name="sqlSessionFactoryBeanName" value="sf"></property>
 	</bean>
 	
